@@ -1,13 +1,16 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+import { StyleSheet, Platform, Image, Text, View } from 'react-native'
+import { SwitchNavigator } from 'react-navigation'
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
-}
+
+export default  App = SwitchNavigator(
+  {
+    
+  },
+  {
+    initialRouteName: ''
+  }
+)
 
 const styles = StyleSheet.create({
   container: {
