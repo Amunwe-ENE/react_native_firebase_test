@@ -3,14 +3,16 @@ import { StyleSheet, Platform, Image, Text, View } from 'react-native'
 import { SwitchNavigator } from 'react-navigation'
 import SignIn from './SignIn'
 import SignUp from './SignUp'
+import Form from './Form'
 
 export default  App = SwitchNavigator(
   {
     SignIn,
-    SignUp
+    SignUp,
+    Form
   },
   {
-    initialRouteName: 'SignIn'
+    initialRouteName: 'Form'
   }
 )
 
